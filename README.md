@@ -9,12 +9,12 @@
 - `/api/:date` - get by date string ('YYYY-MM-DD')
   
 
-### Example calls:
+### Example usage:
 - [`/api`]()
 - [`/api/1608854400000`]()
 - [`/api/2020-12-25`]()
 
-### Return:
+### Example output:
 ```json
 {
     "unix": 1608854400000, 
