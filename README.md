@@ -1,6 +1,6 @@
 
 
-# [FreeCodeCamp Example](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice)
+### [Heroku deploy](https://timestamp-service-freecodecamp.herokuapp.com/)
 
 ### Endpoints
 
@@ -9,12 +9,12 @@
 - `/api/:date` - get by date string ('YYYY-MM-DD')
   
 
-### Example usage:
-- [`/api`]()
-- [`/api/1608854400000`]()
-- [`/api/2020-12-25`]()
+### Example usage
+- [`/api`](https://timestamp-service-freecodecamp.herokuapp.com/api)
+- [`/api/1608854400000`](https://timestamp-service-freecodecamp.herokuapp.com/api/1608854400000)
+- [`/api/2020-12-25`](https://timestamp-service-freecodecamp.herokuapp.com/api/2020-12-25)
 
-### Example output:
+### Example output
 ```json
 {
     "unix": 1608854400000, 
