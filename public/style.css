@@ -80,6 +80,23 @@ ul {
 	gap: 0.75rem;
 }
 
+li {
+	display: flex;
+}
+
+li label {
+	flex: 0 115px;
+}
+
+li span {
+	flex: 0 max-content;
+	margin: 0 2rem;
+}
+
+li a {
+	display: flex;
+	display: inline-block;
+}
 section {
 	max-width: 650px;
 	margin: 0 auto;
