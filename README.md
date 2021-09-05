@@ -1,8 +1,23 @@
 
+
 # [FreeCodeCamp Example](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice)
 
-Endpoints
+### Endpoints
 
 - `/api` - get current date
 - `/api/:unix_timestamp` - get by unix timestamp
-- `/api/:date` - get by date string ('YYYY-DD-MM')
+- `/api/:date` - get by date string ('YYYY-MM-DD')
+  
+
+### Example calls:
+- [`/api`]()
+- [`/api/1608854400000`]()
+- [`/api/2020-12-25`]()
+
+### Return:
+```json
+{
+    "unix": 1608854400000, 
+    "utc": "Fri, 25 Dec 2015 00:00:00 GMT"
+}
+```
