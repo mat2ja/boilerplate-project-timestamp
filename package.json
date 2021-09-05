@@ -24,9 +24,6 @@
 	],
 	"license": "MIT",
 	"devDependencies": {
-		"browser-sync": "^2.27.5",
-		"connect-livereload": "^0.6.1",
-		"livereload": "^0.9.3",
 		"nodemon": "^2.0.12"
 	},
 	"engines": {
