@@ -25,7 +25,7 @@ app.get('/api', (req, res) => {
 		const now = Date.now();
 		res.send({
 			unix: now,
-			utc: new Date(now),
+			utc: new Date(now).toUTCString(),
 		});
 	} catch (error) {
 		res.status(400).send({ error: 'Invalid Date' });
@@ -45,7 +45,7 @@ app.get('/api/:date', (req, res) => {
 
 			return res.send({
 				unix,
-				utc: parsedDate,
+				utc: parsedDate.toUTCString(),
 			});
 		}
 
